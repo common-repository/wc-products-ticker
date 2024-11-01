@@ -1,0 +1,119 @@
+/* 
+* All Layout css
+*
+* @package WooCommerce Products Ticker.
+* @since      1.0
+* @author AmityThemes
+*/
+
+
+/*========== Global CSS   ==========*/
+.wcpt-widget ul {
+	width: 100%;
+}
+
+.misce-inner {
+	padding: 5px 25px;
+}
+
+/*========== Defaults CSS ==========*/
+
+/*========== Layout 1 CSS ==========*/
+
+.layout1 .product-inner {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.layout1 .product-details {
+	padding: 15px 0;
+	border: 1px solid #dfdfdf;
+}
+
+.layout1 .product-details .product-title {
+	margin: 0;
+}
+
+.layout1 .product-details .product-title h3 {
+	border: none;
+	margin: 0;
+	font-size: 20px;
+	line-height: 100%;
+}
+
+.layout1 .product-details .price del {
+    opacity: 0.5;
+}
+
+.layout1 .product-details .price ins {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #B85F56;
+}
+
+/*========== Layout 2 CSS ==========*/
+
+.layout2 .product-inner {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.layout2 .product-thumb {
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+  width: 25%;
+  overflow: hidden;
+}
+
+.layout2 .product-thumb:nth-child(n) {
+  margin-right: 5px;
+}
+.layout2 .product-thumb:first-child {
+  margin-left: -15px;
+}
+.layout2 .product-thumb:last-child {
+  margin-right: 0;
+}
+
+.layout2 .product-thumb img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.layout2 .product-details {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.layout2 .product-details .product-title {
+	margin: 0;
+}
+
+.layout2 .product-details .product-title h3 {
+	border: none;
+	margin: 0;
+	font-size: 20px;
+	line-height: 100%;
+}
+
+.layout2 .product-details .price del {
+    opacity: 0.5;
+}
+
+.layout2 .product-details .price ins {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #B85F56;
+}
+
+/*========== Layout 3 CSS ==========*/
